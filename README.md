@@ -1,4 +1,4 @@
-# job Quest
+# Job Quest
 
 Job Quest is an idea that helps you to explore the career choices out there in the world.
 
