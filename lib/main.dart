@@ -292,13 +292,15 @@ class exploreJob extends StatelessWidget {
         'title': 'Dentist',
         'icon':
             'https://www.smilesbymyles.com/wp-content/uploads/2022/03/dental-service-900x600.jpg',
-        'description': 'dghdiugehirghiej'
+        'description':
+            "The path to becoming a dentist is pretty straightforward. Because the occupation requires licensure, you must follow specific educational requirements in order to qualify for state certification. Because of this you should become familiar with your state's requirements as well as the general requirements for dental school admission. Most dental schools have minimum grade point average (GPA) standards as well as course prerequisites so you should keep this in mind throughout your college years. College and dental school will each take four years of full-time attendance, so you should make a long-term plan before enrolling in your Bachelor degree program. That way you can customize your curriculum to dental school standards and utilize your time for maximum effectiveness. Here are the basic steps to become a dentist:\nStep 1: - Earn Your Bachelor's Degree \nStep 2: - Pass the Dental Admission Test Step 3: - Complete Dental School Training Step 4: - Pass Licensure Requirements Step 5: - Consider an Area of Specialization",
       },
       {
         'title': 'Pharmacist',
         'icon':
             'https://www.northeastern.edu/graduate/blog/wp-content/uploads/2022/01/what-does-a-pharmacist-do.jpg',
-        'description': 'dghdiugehirghiej'
+        'description':
+            "To become a pharmacist in India, the person should have a valid permit given by the Governing Authority. By acquiring this permit, he/she would be able to begin their pharmaceutical practice. To get this permit, one must finish the required education. Besides, one should also have a diploma degree in Pharmacy or Bachelor in Pharmacy.With the increasing demand for medicines, the need for pharmacy professionals is also high. A pharmacist can find jobs in hospitals, Medical Clinics, Government Drug Research Institutes, etc. The significant job positions they work on include Drug Safety Associate, Clinical Research Associate, Drug Inspector, Pharmaceutical Scientist and other sales positions in pharmacy company like Sun pharmaceutical, Novartis, Cipla, Baxter, Abbott, etc. A pharmacist is a well-known profession among science students. A Pharmacist earns an average salary of INR 3-4.5 Lacs annually initially can go up till INR 12 Lacs depending on the job experience while a pharmacist who practices drawing around INR 8-10 Lacs annually.",
       },
       {
         'title': 'Physician',
@@ -322,7 +324,8 @@ class exploreJob extends StatelessWidget {
         'title': 'Architect',
         'icon':
             'https://www.smilesbymyles.com/wp-content/uploads/2022/03/dental-service-900x600.jpg',
-        'description': 'dghdiugehirghiej'
+        'description':
+            "Every physical structure sprouted initially from the genius mind of an Architect who transformed the simplest idea into a wonderfully created structure! From the conception of the idea to its formulation as well as construction to enliven it, the architect remains engaged in all the details. If you have a knack for designing and an eye for detail, then you must consider studying Architecture. This blog brings you a comprehensive guide on how to become an architect, including the courses, universities as well as career scope this field has on offer. An architect is involved in planning, designing and overseeing the construction of different structures such as offices, houses, malls, stadiums etc. The task of an architect is not easy, they have to make sure that the constructions adhere to different measures of public safety, quality, functionality and environmental protection. Therefore, the architect needs to have an understanding of all these factors along with a creative streak. Since architects need to work in teams, having great interpersonal and communication skills are a must for them.",
       },
     ];
     return Padding(
@@ -478,7 +481,7 @@ class JobDescription extends StatelessWidget {
         width: double.infinity,
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/pharmacist1.jpg'),
+            image: AssetImage('images/pharmacist1.jpg'),
             fit: BoxFit.cover,
             opacity: 200,
           ),
@@ -501,7 +504,17 @@ class JobDescription extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(bottom: 28.0, right: 28, left: 28),
               child: Row(
-                children: [Text(desc)],
+                children: [
+                  Expanded(
+                    child: Text(
+                      desc,
+                      style: TextStyle(fontSize: 15),
+                      softWrap: true,
+                      maxLines: 100,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  )
+                ],
               ),
             ),
           ],
