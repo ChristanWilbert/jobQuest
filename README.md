@@ -1,16 +1,13 @@
-# job_quest
+# job Quest
 
-A new Flutter project.
+Job Quest is an idea that helps you to explore the career choices out there in the world.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+A lot of people out there, both young and old are struggling to find a career that can suit them.
+You can use the app to explore the various career choices out there and create an attractive resume to land jobs.
+The app also will provide all the news connected to the interested field of area of the user.
+The user can also view the latest trending career choices out there.
+The app can also help immigrants who have just moved into new countries find the on demand careers in the area.
+It also would boost the economy by reducing unemployment when more and more people find better suited careers paths to them.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
